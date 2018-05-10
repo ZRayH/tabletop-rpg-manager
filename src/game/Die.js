@@ -12,11 +12,11 @@ export default class extends Component {
   
   render() {
     return (
-      <Fragment>
+      <div>
         <p>Roll: {this.state.roll}</p>
         <p>Number of Sides: {this.props.numOfSides}</p>
         <input type="button" value="Roll Die" onClick={this.clickHandler} />
-      </Fragment>
+      </div>
     )
   }
 }

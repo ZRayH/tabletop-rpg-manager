@@ -4,3 +4,13 @@ body {
   font-family: sans-serif;
   text-align: center
 }
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flexContainer > * {
+  margin: 1em;
+}
