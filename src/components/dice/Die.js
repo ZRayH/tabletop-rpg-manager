@@ -1,22 +1,22 @@
-import React, { Component, Fragment } from 'react'
+import React, {Component, Fragment} from 'react'
 
 export default class extends Component {
-  state = {
-    roll: 0
-  }
-  
-  clickHandler = () => {
-    const numSides = this.props.numOfSides
-    this.setState({roll: Math.ceil(Math.random() * numSides)})
-  }
-  
-  render() {
-    return (
-      <div>
-        <p>Roll: {this.state.roll}</p>
-        <p>Number of Sides: {this.props.numOfSides}</p>
-        <input type="button" value="Roll Die" onClick={this.clickHandler} />
-      </div>
-    )
-  }
+    state = {
+        roll: 0
+    }
+
+    clickHandler = () => {
+        const numSides = this.props.numOfSides
+        this.setState({roll: Math.ceil(Math.random() * numSides)})
+    }
+
+    render() {
+        return (
+            <div>
+                <p>Roll: {this.state.roll}</p>
+                <p>Number of Sides: {this.props.numOfSides}</p>
+                <input type="button" value="Roll Die" onClick={this.clickHandler}/>
+            </div>
+        )
+    }
 }
