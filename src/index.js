@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import Dice from './game/Dice';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -15,7 +15,7 @@ import registerServiceWorker from './registerServiceWorker';
 //   </div>,
 //   document.getElementById('root'));
 
-// ReactDOM.render(<Dice ten="10"/>, document.getElementById('root'));
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<Dice />, document.getElementById('root'));
+// ReactDOM.render(<App/>, document.getElementById('root'));
 registerServiceWorker();
 
