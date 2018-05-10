@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Dice from './game/Dice';
+import Dice from './components/dice/Dice';
 import registerServiceWorker from './registerServiceWorker';
 
 // ReactDOM.render(
